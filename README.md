@@ -21,9 +21,15 @@ This is part 1 of the project that performs the simple task of querying the movi
 * Discover the most popular and top rated movies
 * See details such as vote count, average rating and movie synopsis.
 
-## How to Work with the Source
+## How to use
 
 You have to use your own API key. Paste your api key into /src/main/java/com/prashanth/popularmovies/NetworkUtils.java in the API_KEY string field.
+
+Import into Android Studio and let it auto-generate other required source files. Then you can run it immediately.
+
+## Libraries
+
+* Picasso - For loading and caching images
 
 ## Screens
 
@@ -32,15 +38,6 @@ You have to use your own API key. Paste your api key into /src/main/java/com/pra
 ![screen](../master/pics/phone-details-1.png)
 
 ![screen](../master/pics/phone-details-2.png)
-
-
-## Libraries
-
-* Picasso - For loading and caching images
-
-## Android Developer Nanodegree
-[![udacity][1]][2]
-
 
 ## License
 
