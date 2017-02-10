@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="action_sort_popular">Popular Movies</string>
+    <string name="action_sort_top_rated">Top-Rated Movies</string>
+    <string name="movie_title"><u>MOVIE TITLE</u></string>
+    <string name="vote_count"><u>VOTE COUNT</u></string>
+    <string name="vote_average"><u>VOTE AVERAGE</u></string>
+    <string name="synopsis"><u>SYNOPSIS</u></string>
+    <string name="released_on"><u>RELEASED ON</u></string>
+</resources>

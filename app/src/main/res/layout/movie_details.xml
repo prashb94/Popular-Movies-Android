@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_posterPath"
+        android:layout_margin="100dp"
+        />
+
+    <TextView
+        android:text="@string/movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_titleText"
+        android:layout_below="@+id/iv_posterPath"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="12dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="12dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:text="No Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:layout_below="@+id/tv_titleText"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:text="@string/vote_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_voteCountText"
+        android:layout_below="@+id/tv_title"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:text="No Votes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_voteCount"
+        android:layout_below="@id/tv_voteCountText"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:text="@string/vote_average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_voteAverageText"
+        android:layout_below="@+id/tv_voteCount"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="12dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="12dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:text="No Average Available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_voteAverage"
+        android:layout_below="@id/tv_voteAverageText"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:text="@string/synopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_overviewText"
+        android:layout_below="@+id/tv_voteAverage"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:text="No Synopsis Available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_overview"
+        android:layout_below="@id/tv_overviewText"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:text="@string/released_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_releaseDateText"
+        android:layout_below="@+id/tv_overview"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:text="No Release Date Found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_releaseDate"
+        android:layout_below="@id/tv_releaseDateText"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
+    </LinearLayout>
+    </ScrollView>

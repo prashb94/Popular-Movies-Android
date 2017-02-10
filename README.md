@@ -1,6 +1,6 @@
 # Popular-Movies-Android-2017
 
-Part 1 of the Popular Movies project for the Associate Android Developer Google certification by Udacity
+Part 1 of the Popular Movies project for the Associate Android Developer Google certification by Udacity. To test it I've added the apk file directly in the root folder. You can clone the repo or download just the movies.apk file and try it out.
 
 # Popular Movies
 
@@ -27,11 +27,11 @@ You have to use your own API key. Paste your api key into /src/main/java/com/pra
 
 ## Screens
 
-![screen](../master/art/phone-movies.png)
+![screen](../master/pics/phone-movies.png)
 
-![screen](../master/art/phone-details-1.png)
+![screen](../master/pics/phone-details-1.png)
 
-![screen](../master/art/phone-details-2.png)
+![screen](../master/pics/phone-details-2.png)
 
 
 ## Libraries
